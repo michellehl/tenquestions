@@ -1,0 +1,113 @@
+html {
+
+}
+nav {
+	padding-top: 10px;
+	padding-right: 60px;
+	padding-left: 60px;
+	padding-bottom: 10px;
+	text-align: center;
+	/*position: relative;*/
+	height: 50px;
+	/*background-color: #5a2d0c;*/
+}
+.form {
+	text-align: left;
+	margin-left: 25%;
+}
+main {
+	/*padding-top: 90px;*/
+	
+}
+.box {
+  height: 125%;
+  text-align: center;
+  padding-bottom: 10px;
+  border-style: 1px;
+  border: solid lightgray;
+  float: center;
+  /*background-image: url("dani.jpg");*/
+  background-size: cover;
+
+
+ 
+}
+
+ul {
+	margin-top: 5px;
+	font-size: 20px;
+	text-align: left;
+	padding-left: 40%;
+	color: white;
+}
+.Q{
+	width: 90%;
+	/*margin-top: 5%;*/
+	margin-left: 5%;
+	margin-right: 5%;
+}
+h1 {
+	margin-top: 5px;
+	text-align: center;
+	color: #800000;
+	/*background-color: #D0CEBF;*/
+	/*background-image: url("gold.jpg");*/
+
+}
+#start {
+	background-color: #800000;
+	color: white;
+
+	
+}
+.questions {
+	margin-top: 5px;
+	font-size: 35px;
+	color: white;
+
+
+}
+.music {
+	padding-top: 20px;
+	padding-left: 75%;
+	color:white;
+}
+.logo {
+	position: relative;
+	padding-bottom: 10px;
+	/*left: 10px;
+	width: 30px;*/
+	height: 100%;
+	/*border-radius: 50%;*/
+	/*border: 1px solid black;*/
+
+}
+#answer {
+	color: white;
+}
+#correct {
+	color: white;
+	font-size: 30px;
+}
+#amtright {
+	color: white;
+	font-size: 40px;
+}
+.new {
+	color:white;
+	font-size: 40px;
+}
+#check {
+	background-color: #A79824;
+
+}
+#next {
+	background-color: #A79824;
+}
+body {
+	background-color: #404040;
+	background-image: url("GofTbackground2.jpg");
+     
+	background-size: cover;
+	/*background-repeat: no-repeat;*/
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Game of Thrones Quiz</title>
+		<link rel="stylesheet" href="styles.css">
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.js" charset="utf-8"></script>
+
+		<script src="app.js"></script>
+
+	</head>
+	<!--______________________________________________________BEGIN APP-->
+	<body>
+<nav>
+    <img src="GofTlogo.png" alt= "game of thrones" class='logo'/>
+    </nav>
+
+<main>
+ <div class="row">
+      <div class="col-12">
+        <div class="box Q"><form id="form" action="">
+       <a class="music" href="#">Music on/off</a> 
+	<h1>How well do you know the Game of Thrones?</h1>
+
+	<input type="submit" id="start"  value="START GAME">
+	<p class="questions"></p>
+	<ul class ="answers">
+	<input type="radio" id="r1"  name="Group" value="a"><label for="a" id="a"></label><br>
+	<input type="radio" id="r2"  name="Group" value="b"><label for="b" id="b"></label><br/>
+	<input type="radio" id="r3"  name="Group" value="c"><label for="c" id="c"></label><br/>
+	<input type="radio" id="r4"  name="Group" value="d"><label for="d" id="d"></label><br/>
+	</ul>
+	<input type="submit" id="check" value= "Check Answer">  <input type="submit" id="next" value= "Next Question"><br/>
+	</form>
+<div id="answer"><p><strong></strong></p></div>
+<div id="correct"><p><strong></strong></p></div>
+<div id="amtright"><p><strong></strong></p></div>
+<a class="new" href="#"></a></div>
+      </div>
+    </div>
+<audio id="GoT-sound" src="01 Main Title.m4a">
+</main>
+
+	</body>
+	<!--______________________________________________________END APP-->
+</html>
